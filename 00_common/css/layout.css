@@ -1,3 +1,11 @@
+html, body, button, input, select, textarea {
+    font-family: 'Escoredream', sans-serif !important;
+}
+
+/* Ensure XEIcon works for its classes and identified broken elements */
+[class^="xi-"], [class*=" xi-"], #snb li.active > a:before {
+    font-family: 'xeicon' !important;
+}
 @import url('../font/Escoredream/fonts.css');
 @import url('../../00_common/css/basic.css');
 #wrap {
