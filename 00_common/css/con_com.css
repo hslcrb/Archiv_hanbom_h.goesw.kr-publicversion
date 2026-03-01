@@ -443,7 +443,7 @@ ul[class*='li_w'] {
 /* 텍스트 요소 :옛체 형식 */
 
 .font_nanum {
-    font-family: 'NanumGothic';
+    font-family: 'Escoredream', sans-serif;
 }
 
 /* 텍스트 요소 :폰트컬러 타입 */
@@ -627,7 +627,7 @@ a.bu_tel:before,
 a.bu_telL:before {
     display: inline-block;
     font-size: 0.75rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     padding-right: 0.15rem;
     color: #064e9f;
 }
@@ -728,7 +728,7 @@ ul+.bu_ment {
     left: 0;
     top: 0;
     display: block;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     color: #2c51aa;
 }
 
@@ -1283,7 +1283,7 @@ div[class^="tab_st"] ::before {
     right: 0.6rem;
     top: 0.9rem;
     font-weight: 400;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-size: 1.2rem;
     color: #b5b5b5;
 }
@@ -1350,7 +1350,7 @@ div[class^="tab_st"] ::before {
     position: absolute;
     right: 0.6rem;
     top: 0.9rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-size: 1rem;
     color: #b5b5b5;
 }
@@ -1416,7 +1416,7 @@ div[class^="tab_st"] ::before {
     font-weight: 400;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     color: #b5b5b5;
     font-size: 1rem;
     content: "\e938";
@@ -2434,7 +2434,7 @@ table button[class^="btn_"].mini {
 .os_mac.root_daum_roughmap td,
 .os_mac.root_daum_roughmap textarea,
 .os_mac.root_daum_roughmap th {
-    font-family: inherit !important;
+    font-family: 'Escoredream', sans-serif!important;
 }
 
 .os_mac.root_daum_roughmap .section_address .tit,

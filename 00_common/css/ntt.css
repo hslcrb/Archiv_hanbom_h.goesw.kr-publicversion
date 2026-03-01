@@ -887,7 +887,7 @@ select {
 
 .clasHmpg_List td {
     padding: 10px 10px;
-    font-family: "Dotum";
+    font-family: 'Escoredream', sans-serif;
     font-size: 12px;
     color: #555;
     border-bottom: 1px solid #e5e5e5;
@@ -895,7 +895,7 @@ select {
 
 .clasHmpg_List td {
     padding: 10px 10px;
-    font-family: "Dotum";
+    font-family: 'Escoredream', sans-serif;
     font-size: 12px;
     color: #555;
     border-bottom: 1px solid #e5e5e5;
@@ -1037,7 +1037,7 @@ select {
     margin: 20px 0 0;
     border-radius: 3px;
     white-space: nowrap;
-    font-family: Nanum;
+    font-family: 'Escoredream', sans-serif;
 }
 
 .pagination>li {
@@ -1290,7 +1290,7 @@ select {
     content: '\e980';
     display: inline-block;
     margin-left: 5px;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
 }
 
 .BD_table>table>tbody>tr>td p {
@@ -1330,7 +1330,7 @@ select {
 
 .photo_list ul li.cont_none {
     text-align: center;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
     font-size: .95rem;
     width: 100%;
     font-weight: 600;
@@ -1375,7 +1375,7 @@ select {
 .photo_list ul li .date {
     display: block;
     margin-top: .5rem;
-    font-family: 'Sora';
+    font-family: 'Escoredream', sans-serif;
     font-size: .75rem;
     color: #888;
 }
@@ -1678,7 +1678,7 @@ select {
     padding: 1rem;
     font-size: .8rem;
     color: #222;
-    font-family: 'SCDream';
+    font-family: 'Escoredream', sans-serif;
     font-weight: 600;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1882,7 +1882,7 @@ select {
     display: inline-block;
     padding: 0 20px;
     font-weight: 700;
-    font-family: 'SCDream';
+    font-family: 'Escoredream', sans-serif;
 }
 
 .BD_listNavi li a span {
@@ -1934,7 +1934,7 @@ select {
 
 .BD_reply-head .info span.warning {
     float: right;
-    font-family: 'Nanum';
+    font-family: 'Escoredream', sans-serif;
 }
 
 .BD_reply-head .write {
@@ -2036,7 +2036,7 @@ select {
 .BD_reply-body .btnMore a {
     display: block;
     line-height: 50px;
-    font-family: 'NanumBold';
+    font-family: 'Escoredream', sans-serif;
     color: #333;
     text-align: center;
 }
@@ -2050,7 +2050,7 @@ select {
     right: 20px;
     top: 0;
     height: 20px;
-    font-family: 'Nanum';
+    font-family: 'Escoredream', sans-serif;
     margin-top: 0;
     padding-top: 0;
     color: #666;
@@ -2072,7 +2072,7 @@ select {
 .BD_noReply {
     text-align: center;
     padding: 20px 10px 20px;
-    font-family: 'NanumBold';
+    font-family: 'Escoredream', sans-serif;
 }
 
 /* 게시판 글쓰기 파일첨부 */
@@ -2516,7 +2516,7 @@ select {
     height: 2rem;
     line-height: 2rem;
     font-size: 1rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     border: 1px solid #ccc;
     border-left: 0;
     background: #eee;
@@ -2536,7 +2536,7 @@ select {
 /* 검색 filter */
 
 .bbs_filter h4 {
-    font-family: 'SCDream';
+    font-family: 'Escoredream', sans-serif;
     font-size: 1rem;
     color: #000;
     margin: 1rem 0;
@@ -2579,7 +2579,7 @@ select {
     width: 6.5rem;
     float: left;
     line-height: 1.5rem;
-    font-family: 'SCDream';
+    font-family: 'Escoredream', sans-serif;
     font-weight: 700;
     color: #000;
 }
@@ -2886,13 +2886,13 @@ select {
     font-size: 0.75rem;
     border: 1px solid #000;
     color: #000;
-    font-family: 'NotoSans';
+    font-family: 'Escoredream', sans-serif;
 }
 
 .bbs_FaqA>li>a span.faq_arr:after {
     content: "\e936";
     display: inline-block;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     color: #000;
     font-size: 1rem;
     padding-left: 0.25rem;
@@ -2916,7 +2916,7 @@ select {
 
 .bbs_FaqA>li .cnt .tit h5 {
     width: calc(100% - 10rem);
-    font-family: 'SCDream';
+    font-family: 'Escoredream', sans-serif;
     line-height: 1.5rem;
     font-size: 1rem;
     font-weight: 700;
@@ -2970,7 +2970,7 @@ select {
     right: 1rem;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: "xeicon";
+    font-family: 'Escoredream', sans-serif;
     font-size: 1rem;
     content: "\e941";
 }
@@ -3338,7 +3338,7 @@ select {
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: "xeicon";
+    font-family: 'Escoredream', sans-serif;
     content: "\e9ba";
     font-size: 1rem;
     color: #3a62ad;
@@ -3584,7 +3584,7 @@ select {
 
 .bbsV_answer .bbsV_answList>li dl dt:before {
     position: relative;
-    font-family: "xeicon";
+    font-family: 'Escoredream', sans-serif;
     font-size: 1rem;
     vertical-align: middle;
     content: "\e9f2";
@@ -3627,7 +3627,7 @@ select {
     position: relative;
     margin-left: .25rem;
     font-size: 1.1rem;
-    font-family: "xeicon";
+    font-family: 'Escoredream', sans-serif;
     color: #22499d;
     content: "\ea15";
 }
@@ -3865,7 +3865,7 @@ select {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: .7rem;
-    font-family: "xeicon";
+    font-family: 'Escoredream', sans-serif;
     content: "\e944";
 }
 
@@ -3954,7 +3954,7 @@ select {
     position: absolute;
     top: -1px;
     left: 0;
-    font-family: "xeicon";
+    font-family: 'Escoredream', sans-serif;
     color: #bbb;
     font-size: .85rem;
 }
@@ -4036,7 +4036,7 @@ select {
 .bbs_WriteA table th {
     padding: 13px 10px;
     color: #111;
-    font-family: 'SCDream';
+    font-family: 'Escoredream', sans-serif;
     font-weight: 600;
     text-align: left;
     border-bottom: 1px solid #eaecf1;
@@ -4725,12 +4725,12 @@ select {
 
 .booksList ul>li div {
     padding-top: 1rem;
-    font-family: "NotoSerifKR";
+    font-family: 'Escoredream', sans-serif;
     position: relative;
     color: #000;
     font-size: .8rem;
     font-weight: 200;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
 }
 
 .booksList ul>li div h4 {
@@ -4819,7 +4819,7 @@ select {
 
 .booksListView .about_books .txt {
     margin-top: 1.5rem;
-    font-family: "SCDream", "Sora";
+    font-family: 'Escoredream', sans-serif;
     text-align: center;
 }
 
@@ -4887,7 +4887,7 @@ select {
     display: block;
     font-size: .9rem;
     color: #333;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
 }
 
 .campus_veiw .txtbox .tit {
@@ -4895,7 +4895,7 @@ select {
     margin-top: .5rem;
     font-size: 1.1rem;
     color: #000;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
     font-weight: 700;
 }
 
@@ -4955,7 +4955,7 @@ select {
     vertical-align: middle;
     font-size: .9rem;
     color: #000;
-    font-family: "Sora";
+    font-family: 'Escoredream', sans-serif;
 }
 
 .campus_veiw .control .count:before {
@@ -5061,7 +5061,7 @@ select {
     color: #22499d;
     font-size: .9rem;
     font-weight: 600;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
     border-bottom: 1px solid #22499d;
     line-height: 2;
 }
@@ -5072,7 +5072,7 @@ select {
     color: #000;
     font-size: 1.3rem;
     font-weight: 700;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -5109,7 +5109,7 @@ select {
     display: block;
     font-size: .9rem;
     color: #22499d;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
     font-weight: 600;
 }
 
@@ -5118,7 +5118,7 @@ select {
     margin-top: .5rem;
     font-size: 1.3rem;
     color: #000;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
     font-weight: 700;
 }
 
@@ -5235,7 +5235,7 @@ select {
     padding: 0 6rem .75rem 0;
     font-size: 1rem;
     color: #000;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
     font-weight: 700;
     border-bottom: 1px dashed #ccc;
     white-space: nowrap;
@@ -5364,7 +5364,7 @@ select {
     padding: 0 0 .75rem 0;
     font-size: 1rem;
     color: #000;
-    font-family: "SCDream";
+    font-family: 'Escoredream', sans-serif;
     font-weight: 700;
     border-bottom: 1px dashed #ccc;
 }

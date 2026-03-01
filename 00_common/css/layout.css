@@ -1,3 +1,4 @@
+@import url('../font/Escoredream/fonts.css');
 @import url('../../00_common/css/basic.css');
 #wrap {
     position: relative;
@@ -330,7 +331,7 @@
     content: "\e980";
     display: inline-block;
     margin-left: 4px;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
 }
 
 .lyrWrap .popuplst table td a.bu_blank:hover {
@@ -537,7 +538,7 @@
     content: "\e980";
     display: inline-block;
     padding-left: 0.25rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-size: 0.9rem;
 }
 
@@ -584,7 +585,7 @@
     content: "\e980";
     display: inline-block;
     padding-left: 0.25rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     vertical-align: middle;
     font-size: 0.8rem;
 }
@@ -634,7 +635,7 @@
     content: "\e980";
     display: inline-block;
     padding-left: 0.15rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     vertical-align: middle;
     font-size: 0.7rem;
 }
@@ -754,7 +755,7 @@
     position: absolute;
     right: 0.5rem;
     top: 0.45rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-size: 0.7rem;
 }
 
@@ -866,7 +867,7 @@
     position: absolute;
     right: 0.5rem;
     top: 0.4rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-size: 0.6rem;
 }
 
@@ -964,7 +965,7 @@
     height: 1.5rem;
     line-height: 1.5rem;
     text-align: center;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-size: 0.85rem;
 }
 
@@ -1225,7 +1226,7 @@
 #mgnb li a[target='_blank']:after {
     display: inline-block;
     padding-left: 0.25rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-weight: 400;
     content: '\e980';
 }
@@ -1302,7 +1303,7 @@
 
 #mgnb li.dep>a:before {
     position: absolute;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
 }
 
 #mgnb .depth01>ul>li.dep.active>a {
@@ -1427,7 +1428,7 @@
 #fullMenu li a[target='_blank']:after {
     display: inline-block;
     padding-left: 0.25rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-weight: 400;
     content: '\e980';
 }
@@ -1479,7 +1480,7 @@
     content: "\e980";
     display: inline-block;
     padding-left: 0.25rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-size: 0.9rem;
 }
 
@@ -1503,7 +1504,7 @@
     position: absolute;
     right: 0.25rem;
     top: 0.35rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     color: #666;
     font-size: 0.8rem
 }
@@ -1550,7 +1551,7 @@
     content: "\e980";
     display: inline-block;
     padding-left: 0.15rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     vertical-align: middle;
     font-size: 0.7rem;
 }
@@ -1721,7 +1722,7 @@
     color: #fff;
     line-height: 3rem;
     font-size: 1.2rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
 }
 
 .quickMenu .inner {
@@ -1868,7 +1869,7 @@
 }
 
 .goog-te-gadget-simple .goog-te-menu-value span {
-    font-family: 'NotoSans';
+    font-family: 'Escoredream', sans-serif;
 }
 
 .goog-te-gadget-simple .goog-te-menu-value img+span {
@@ -1972,7 +1973,7 @@
 #snb .home:after {
     display: block;
     text-align: center;
-    font-family: "xeicon";
+    font-family: 'Escoredream', sans-serif;
     font-size: 1.2rem;
     color: #fff;
     content: "\e900";
@@ -2059,7 +2060,7 @@
     position: absolute;
     right: 1rem;
     top: 0;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
     font-weight: normal;
     line-height: 3.25rem;
     opacity: 0.65;
@@ -2092,7 +2093,7 @@
     display: inline-block;
     margin-left: 5px;
     font-size: 0.8rem;
-    font-family: 'xeicon';
+    font-family: 'Escoredream', sans-serif;
 }
 
 #snb .dep01 {
@@ -2216,7 +2217,7 @@
 
 .snsBox>button:before {
     font-size: 1rem;
-    font-family: "xeicon";
+    font-family: 'Escoredream', sans-serif;
     color: #fff;
 }
 
@@ -2474,7 +2475,7 @@
 
 .satisfaction_list input {
     font-size: inherit;
-    font-family: inherit;
+    font-family: 'Escoredream', sans-serif;
     color: inherit;
     line-height: 24px;
     padding: 1px 5px;
@@ -2523,7 +2524,7 @@
 .satisfaction .admin_info {
     position: relative;
     border-top: 1px solid #e1e1e1;
-    font-family: "NotoR";
+    font-family: 'Escoredream', sans-serif;
     font-size: 13px
 }
 
@@ -2558,7 +2559,7 @@
 
 .satisfaction .admin_info ul li span {
     float: left;
-    font-family: "NotoM";
+    font-family: 'Escoredream', sans-serif;
     color: #1c55cc;
     margin: 0 10px 0 0;
     padding-right: 8px;
@@ -2671,7 +2672,7 @@
         right: 0.75rem;
         top: 0.7rem;
         line-height: 1.5rem;
-        font-family: 'xeicon';
+        font-family: 'Escoredream', sans-serif;
         font-weight: 400;
         opacity: 0.7;
     }
