@@ -1,16 +1,18 @@
+@import url('../font/Escoredream/fonts.css');
+@import url('../../00_common/css/basic.css');
+
+/* 전역 폰트: 에스코어드림 / Global font: Escoredream */
 html, body, button, input, select, textarea {
     font-family: 'Escoredream', sans-serif !important;
 }
 
-/* Ensure XEIcon works for its classes and identified broken elements */
+/* XEIcon 보호 / Protect XEIcon for icon rendering */
 [class^="xi-"], [class*=" xi-"], #snb li.active > a:before {
     font-family: 'xeicon' !important;
 }
+
 /* 바로가기 건너뛰기 숨김 / Hide skip navigation */
 #skipArea { display: none !important; }
-
-@import url('../font/Escoredream/fonts.css');
-@import url('../../00_common/css/basic.css');
 #wrap {
     position: relative;
     overflow: hidden;
