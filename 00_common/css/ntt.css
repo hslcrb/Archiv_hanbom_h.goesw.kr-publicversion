@@ -1415,7 +1415,7 @@ select {
     height: 39px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: url(/images/co/na/no_img.png)no-repeat center/cover;
+    background: url(../../images/co/na/no_img.png)no-repeat center/cover;
     content: '';
     opacity: .4;
 }
@@ -1498,7 +1498,7 @@ select {
     height: 39px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: url(/images/co/na/no_img.png)no-repeat center/cover;
+    background: url(../../images/co/na/no_img.png)no-repeat center/cover;
     content: '';
     opacity: .4;
 }
@@ -1651,7 +1651,7 @@ select {
     height: 39px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: url(/images/co/na/no_img.png)no-repeat center/cover;
+    background: url(../../images/co/na/no_img.png)no-repeat center/cover;
     content: '';
     opacity: .4;
 }
@@ -1766,7 +1766,7 @@ select {
     text-indent: -10000em;
     font-size: 0;
     border: 1px solid #b2b7c7;
-    background: url('/images/co/na/btn_page_l.gif') no-repeat;
+    background: url('../../images/co/na/btn_page_l.gif') no-repeat;
 }
 
 .photo_top_list .btn_next {
@@ -1780,7 +1780,7 @@ select {
     text-indent: -10000em;
     font-size: 0;
     border: 1px solid #b2b7c7;
-    background: url('/images/co/na/btn_page_r.gif') no-repeat;
+    background: url('../../images/co/na/btn_page_r.gif') no-repeat;
 }
 
 /* 포토갤러리 - 썸네일 페이지 뷰 */
@@ -1829,7 +1829,7 @@ select {
     height: 33px;
     text-indent: -10000em;
     font-size: 0;
-    background: url('/images/co/na/btn_page_l.gif') no-repeat;
+    background: url('../../images/co/na/btn_page_l.gif') no-repeat;
 }
 
 .thumbSlider .thumb_btn_next {
@@ -1842,7 +1842,7 @@ select {
     height: 33px;
     text-indent: -10000em;
     font-size: 0;
-    background: url('/images/co/na/btn_page_r.gif') no-repeat;
+    background: url('../../images/co/na/btn_page_r.gif') no-repeat;
 }
 
 /* 이전글 다음글 */
@@ -1867,7 +1867,7 @@ select {
     text-overflow: ellipsis;
     overflow: hidden;
     padding: 15px 20px;
-    background: url('/images/co/na/bgPrevList.gif') no-repeat 20px center;
+    background: url('../../images/co/na/bgPrevList.gif') no-repeat 20px center;
 }
 
 .BD_listNavi li.next {
@@ -1875,7 +1875,7 @@ select {
 }
 
 .BD_listNavi li.next a {
-    background: url('/images/co/na/bgNextList.gif') no-repeat 20px center;
+    background: url('../../images/co/na/bgNextList.gif') no-repeat 20px center;
 }
 
 .BD_listNavi li a strong {
@@ -1997,7 +1997,7 @@ select {
     margin-left: 15px;
     padding-left: 15px;
     font-size: 12px;
-    background: url('/images/co/na/bgReplyInfo.gif') 0 center no-repeat;
+    background: url('../../images/co/na/bgReplyInfo.gif') 0 center no-repeat;
 }
 
 .BD_reply-body ul li div {
@@ -2030,7 +2030,7 @@ select {
 
 .BD_reply-body .btnMore {
     margin-top: 10px;
-    background: url('/images/co/na/bgReplyMore.gif') center 0 no-repeat;
+    background: url('../../images/co/na/bgReplyMore.gif') center 0 no-repeat;
 }
 
 .BD_reply-body .btnMore a {
@@ -2062,7 +2062,7 @@ select {
 
 .BD_reply-btn .delete {
     padding-left: 8px;
-    background: url('/images/co/na/bgReplyBtn.gif') 0 center no-repeat;
+    background: url('../../images/co/na/bgReplyBtn.gif') 0 center no-repeat;
 }
 
 .BD_reply-btn .cancel {
@@ -2100,7 +2100,7 @@ select {
     width: 65px;
     height: 27px;
     display: inline-block;
-    background: url('/images/co/na/btnFileSearch.gif') no-repeat 0 center;
+    background: url('../../images/co/na/btnFileSearch.gif') no-repeat 0 center;
 }
 
 .BD_table .fileWrap .fileBg input {
@@ -5029,7 +5029,7 @@ select {
     left: .5rem;
     width: 100%;
     height: 100%;
-    background: url(/images/co/na/ep_imgbox_bg.png)no-repeat center/cover;
+    background: url(../../images/co/na/ep_imgbox_bg.png)no-repeat center/cover;
     content: "";
 }
 
@@ -5203,7 +5203,7 @@ select {
     height: 39px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: url(/images/co/na/no_img.png)no-repeat center/cover;
+    background: url(../../images/co/na/no_img.png)no-repeat center/cover;
     content: '';
     opacity: .4;
 }
@@ -5338,7 +5338,7 @@ select {
     height: 39px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: url(/images/co/na/no_img.png)no-repeat center/cover;
+    background: url(../../images/co/na/no_img.png)no-repeat center/cover;
     content: '';
     opacity: .4;
 }
@@ -6822,10 +6822,10 @@ select {
         font-size: .75rem;
     }
     .BD_listNavi li a {
-        background: url('/images/co/na/bgPrevList.gif') no-repeat 0 center;
+        background: url('../../images/co/na/bgPrevList.gif') no-repeat 0 center;
     }
     .BD_listNavi li.next a {
-        background: url('/images/co/na/bgNextList.gif') no-repeat 0 center;
+        background: url('../../images/co/na/bgNextList.gif') no-repeat 0 center;
     }
     /* 기획전시(박물관) 게시판 List */
     .DBExhibitList>ul>li {

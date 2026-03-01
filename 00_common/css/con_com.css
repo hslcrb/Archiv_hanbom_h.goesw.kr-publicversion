@@ -196,7 +196,7 @@ h3[class^="tit"]+.indent {
     font-size: 1.1rem;
     margin-top: 2rem;
     padding-top: 0.35rem;
-    background: url('/00_common/images/con_com/bu_tit1.png') no-repeat left top;
+    background: url('../../00_common/images/con_com/bu_tit1.png') no-repeat left top;
 }
 
 .tit2 {
@@ -205,7 +205,7 @@ h3[class^="tit"]+.indent {
     font-size: 1rem;
     margin-top: 1.5rem;
     padding-left: 0.85rem;
-    background: url('/00_common/images/con_com/bu_tit2.png') no-repeat left top 0.2rem;
+    background: url('../../00_common/images/con_com/bu_tit2.png') no-repeat left top 0.2rem;
 }
 
 .tit3 {
@@ -214,7 +214,7 @@ h3[class^="tit"]+.indent {
     font-size: 0.9rem;
     margin-top: 1rem;
     padding-left: 0.85rem;
-    background: url('/00_common/images/con_com/bu_tit3.png') no-repeat left top 0.5rem;
+    background: url('../../00_common/images/con_com/bu_tit3.png') no-repeat left top 0.5rem;
 }
 
 [class^="tit"] {
@@ -713,7 +713,7 @@ ul+.bu_ment {
     position: relative;
     margin-top: 0.25rem;
     padding-left: 1.25rem;
-    background: url('/00_common/images/con_com/bu_wnrn.png') no-repeat left top 0.15rem;
+    background: url('../../00_common/images/con_com/bu_wnrn.png') no-repeat left top 0.15rem;
 }
 
 .bu_ment {

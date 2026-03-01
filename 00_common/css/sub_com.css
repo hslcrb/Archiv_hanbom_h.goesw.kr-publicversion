@@ -8,7 +8,7 @@
 .greeting .box {
     position: relative;
     padding: 3rem 2rem;
-    background: #eff8ff url('/00_common/images/sub_com/greeting_bg.png') no-repeat right bottom;
+    background: #eff8ff url('../../00_common/images/sub_com/greeting_bg.png') no-repeat right bottom;
     border-radius: 0 0 3rem 0;
     box-shadow: 5px 5px 0 #0092ff;
     margin-top: 2.2rem;
@@ -877,7 +877,7 @@
 }
 
 .historyBox {
-    background: url(/00_common/images/sub_com_edu/history_bg.png) no-repeat center top;
+    background: url(../../00_common/images/sub_com_edu/history_bg.png) no-repeat center top;
 }
 
 .historyBox h3 {
