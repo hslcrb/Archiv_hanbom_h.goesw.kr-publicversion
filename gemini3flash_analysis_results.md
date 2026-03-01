@@ -1,3 +1,13 @@
+
+## ⚠️ 불완전 아카이브 고지 / Incomplete Archive Notice
+
+이 아카이브는 일부 페이지 및 기능이 누락된 **불완전한 아카이브**입니다.
+보다 완전한 아카이브는 다음 저장소를 참고하세요:
+**[https://github.com/hslcrb/Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages)**
+
+This is an **incomplete archive** with some pages or features missing.
+For a more complete archive, see:
+**[https://github.com/hslcrb/Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages)**
 # 프로젝트 복구 보고서: 한봄고등학교 웹 아카이브
 
 이 보고서는 프로젝트 구조 재구성 과정에서 발생했던 텍스트 깨짐(인코딩) 문제와 경로 오류를 완벽히 해결한 후의 최종 상태를 기록합니다.

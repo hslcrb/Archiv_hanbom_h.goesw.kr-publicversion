@@ -1,7 +1,11 @@
 # 아카이브 상세 정보 (Archive Details)
 
-한봄고등학교(Hanbom High School) 웹사이트의 보존 기록입니다.
+> [!WARNING]
+> 이 아카이브는 **불완전(incomplete)** 합니다. 보다 완전한 아카이브는 **[https://github.com/hslcrb/Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages)** 에서 확인하실 수 있습니다.
+>
+> This archive is **incomplete**. A more complete archive is available at **[https://github.com/hslcrb/Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages)**.
 
+한봄고등학교(Hanbom High School) 웹사이트의 보존 기록입니다.
 ## 1. 개요 (Overview)
 - **사이트 주소**: [https://hanbom-h.goesw.kr/](https://hanbom-h.goesw.kr/)
 - **아카이브 일시**: 2026년 2월 28일 GMT+9 (한국 표준시)

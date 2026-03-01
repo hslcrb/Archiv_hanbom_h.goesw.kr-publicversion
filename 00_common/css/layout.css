@@ -6,6 +6,9 @@ html, body, button, input, select, textarea {
 [class^="xi-"], [class*=" xi-"], #snb li.active > a:before {
     font-family: 'xeicon' !important;
 }
+/* 바로가기 건너뛰기 숨김 / Hide skip navigation */
+#skipArea { display: none !important; }
+
 @import url('../font/Escoredream/fonts.css');
 @import url('../../00_common/css/basic.css');
 #wrap {
