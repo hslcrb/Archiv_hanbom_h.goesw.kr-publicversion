@@ -6,7 +6,7 @@
     color: #000;
     line-height: 22px;
     letter-spacing: -1px;
-    background: url("/images/ap/bul.png") no-repeat 0 4px;
+    background: url("../../images/ap/bul.png") no-repeat 0 4px;
     padding-left: 22px;
 }
 
@@ -882,7 +882,7 @@ select {
 .clasHmpg_List th {
     padding: 13px 0 18px;
     font-size: 14px;
-    background: url("/images/co/na/pt_diagonal.png") repeat-x left bottom;
+    background: url("../../images/co/na/pt_diagonal.png") repeat-x left bottom;
 }
 
 .clasHmpg_List td {
@@ -1222,7 +1222,7 @@ select {
     display: inline-block;
     padding: 0 0 0 24px;
     color: #000;
-    background: url("/images/co/na/down_icon.gif") no-repeat left 6px;
+    background: url("../../images/co/na/down_icon.gif") no-repeat left 6px;
 }
 
 .BD_table>table>tbody>tr>td ul.file li a:hover,

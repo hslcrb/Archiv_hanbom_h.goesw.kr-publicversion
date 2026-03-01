@@ -2249,7 +2249,7 @@
     width: 34px;
     height: 34px;
     overflow: hidden;
-    background: url("/00_common/images/sub_com/btnSns.png") no-repeat 0 0;
+    background: url("../../00_common/images/sub_com/btnSns.png") no-repeat 0 0;
     cursor: pointer
 }
 

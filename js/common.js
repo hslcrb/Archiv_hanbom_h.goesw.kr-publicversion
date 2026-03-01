@@ -128,7 +128,7 @@ $(function() {
 //파일 다운로드
 function mfn_fileDownload(fileKey) {
     if (fileKey != "" || fileKey == null) {
-        location.href = "/common/fileDownload.do?fileKey=" + fileKey;
+        location.href = "/common/fileDownload.html?fileKey=" + fileKey;
     }
 };
 
@@ -189,7 +189,7 @@ $(function() {
         if (chk == 1) {
             $.ajax({
                 type: "get",
-                url: "/apple/hc/hpcm/selectHpcm.do",
+                url: "/apple/hc/hpcm/selectHpcm.html",
                 data: {
                     "hpcmSn": $(this).attr("data-hp")
                 },
@@ -227,7 +227,7 @@ $(function() {
         if (chk == 1) {
             $.ajax({
                 type: "get",
-                url: "/common/hc/hpcm/selectHpcm.do",
+                url: "/common/hc/hpcm/selectHpcm.html",
                 data: {
                     "hpcmSn": $(this).attr("data-hp")
                 },
@@ -259,7 +259,7 @@ $(function() {
 
 // 메뉴 접근 권한 체크
 function menuAccessCheck(mi, sysId) {
-    var url = "/" + sysId + "/mn/menu/menuAccess.do"
+    var url = "/" + sysId + "/mn/menu/menuAccess.html"
 
     $.ajax({
         type: "post",
@@ -361,7 +361,7 @@ $(document).on('click', '.popupCookieSet', function() {
 
 
 function rssFeed(sysId, menuId, bbsId) {
-    var meintext = location.origin + "/" + sysId + "/na/ntt/selectRssFeed.do?mi=" + menuId + "&bbsId=" + bbsId;
+    var meintext = location.origin + "/" + sysId + "/na/ntt/selectRssFeed.html?mi=" + menuId + "&bbsId=" + bbsId;
     if (window.clipboardData) {
         window.clipboardData.setData("Text", meintext);
         alert("아래주소가 클립보드에 복사되었습니다. Ctrl+V로 붙여넣기해서 사용하세요.\n" + meintext);
@@ -410,8 +410,8 @@ initTimer = function() {
 
     } else {
         clearTimeout(timerchecker); //타이머 중지
-        location.href = "/" + sysId + "/lo/login/logout.do"; // 세션아웃
-        //location.href = "/" + sysId + "/lo/login/timeLogout.do"; // 세션아웃
+        location.href = "/" + sysId + "/lo/login/logout.html"; // 세션아웃
+        //location.href = "/" + sysId + "/lo/login/timeLogout.html"; // 세션아웃
     }
 }
 
@@ -452,7 +452,7 @@ function kdelTable() {
     if (!confirm("창을 닫으면 자동 로그아웃 됩니다.")) return;
     var addHtml = document.getElementById("timeLoadingView");
     addHtml.parentNode.removeChild(addHtml); // 폼 삭제  
-    location.href = "/" + sysId + "/lo/login/logout.do";
+    location.href = "/" + sysId + "/lo/login/logout.html";
 }
 
 //로그인 연장

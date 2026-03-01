@@ -1,11 +1,11 @@
 @charset "utf-8";
-@import url("/00_common/font/NotoSansKR/fonts.css");
-@import url("/00_common/font/SCDream/fonts.css");
-@import url("/00_common/font/NanumGothic/fonts.css");
-@import url("/00_common/font/XEIcon-2.3.3/xeicon.css");
-@import url("/00_common/font/RemixIcon_Fonts_v4.6.0/remixicon.css");
-@import url("/00_common/font/pretendard/pretendard-gov.css");
-@import url("/00_common/font/SUITE/SUITE-Variable.css");
+@import url("../../00_common/font/NotoSansKR/fonts.css");
+@import url("../../00_common/font/SCDream/fonts.css");
+@import url("../../00_common/font/NanumGothic/fonts.css");
+@import url("../../00_common/font/XEIcon-2.3.3/xeicon.css");
+@import url("../../00_common/font/RemixIcon_Fonts_v4.6.0/remixicon.css");
+@import url("../../00_common/font/pretendard/pretendard-gov.css");
+@import url("../../00_common/font/SUITE/SUITE-Variable.css");
 /*-------------------------------------------------
 Author : KLIC
 Create date : 2020. 04. 27. RESET SY,CHo

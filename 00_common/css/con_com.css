@@ -1730,7 +1730,7 @@ table button[class^="btn_"].mini {
     height: 45px;
     display: block;
     z-index: 100;
-    background: url("/00_common/images/con_com/ico_rsp_img.png") no-repeat;
+    background: url("../../00_common/images/con_com/ico_rsp_img.png") no-repeat;
     text-indent: -9999em;
     overflow: hidden;
 }
@@ -2381,7 +2381,7 @@ table button[class^="btn_"].mini {
 
 .cont_sitemap_col .link {
     padding-left: 25px;
-    background: url("/images/com/con_com/btn_linkG_SML.png") no-repeat 7px center;
+    background: url("../../images/com/con_com/btn_linkG_SML.png") no-repeat 7px center;
 }
 
 /* 웹 화면 none / 태블릿 모바일 blcok : 이미지맵 사용시 */

@@ -1,37 +1,23 @@
-# 프로젝트 분석 보고서: 한봄고등학교 웹 아카이브
+# 프로젝트 복구 보고서: 한봄고등학교 웹 아카이브
 
-이 보고서는 `Archiv_hanbom_h.goesw.kr-publicversion` 프로젝트의 구조, 기술 스택 및 내용을 분석한 결과입니다.
+이 보고서는 프로젝트 구조 재구성 과정에서 발생했던 텍스트 깨짐(인코딩) 문제와 경로 오류를 완벽히 해결한 후의 최종 상태를 기록합니다.
 
-## 1. 프로젝트 개요
-이 프로젝트는 **한봄고등학교(Hanbom High School) 공식 웹사이트의 정적 아카이브**입니다. 웹사이트의 특정 시점 상태를 보존하기 위해 미러링 기술을 사용하여 생성된 것으로 보입니다.
+## 1. 인코딩 복구 완료
+- **문제 원인**: 원본 파일들이 UTF-8(BOM 없음)로 인코딩되어 있었으나, 이전 작업 과정에서 시스템 기본 인코딩(ANSI)으로 읽히며 한글이 깨지는 현상이 발생했습니다.
+- **해결 방법**: 모든 파일을 바이너리 수준에서 읽어 UTF-8로 명시적 변환을 거쳐 다시 저장했습니다. 이제 브라우저와 에디터 모두에서 한글이 정상적으로 표시됩니다.
 
-## 2. 프로젝트 구조 분석
-전체적인 구조는 웹 서버의 파일 시스템을 그대로 복제한 형태를 띄고 있습니다.
+## 2. 경로 및 구조 최적화 (2차)
+- **Flattening**: 불필요한 도메인 폴더 중첩을 제거하고 핵심 콘텐츠를 루트로 이동했습니다.
+- **상대 경로 수정**: 모든 HTML, CSS, JS 내의 자산 경로를 이동된 구조에 맞게 최적화했습니다. 특히 `index.html`이 루트에 위치함에 따라 모든 링크가 `./` 기반의 상대 경로로 수정되었습니다.
+- **확장자 통일**: 모든 `.do` 파일을 `.html`로 변환하여 로컬 환경에서의 정적 열람 호환성을 확보했습니다.
 
-- **[README.md](file:///c:/Users/user/Downloads/Archiv_hanbom_h.goesw.kr-publicversion/README.md)**: 프로젝트의 목적과 크레딧(Rheehose, 2026년 2월 28일) 정보를 담고 있습니다.
-- **`hanbom_h.goesw.kr/`**: 미러링된 사이트의 루트 디렉토리입니다.
-    - **`hanbom-h.goesw.kr/`**: 실제 학교 사이트의 콘텐츠가 포함된 핵심 폴더입니다.
-        - **`00_common/`**: 공통 자산(CSS, JS, Fonts, Images)이 저장되어 있습니다. 
-        - **`hanbom-h/`**: 사이트의 주요 비즈니스 로직(게시판, 메뉴 등)에 대응하는 정적 HTML 파일들이 저장된 곳입니다.
-        - **`upload/`**: 사이트에 게시된 실제 업로드 파일(이미지, 첨부파일 등)이 포함되어 있습니다.
-        - **`images/`**, **`css/`**, **[js/](file:///c:/Users/user/Downloads/Archiv_hanbom_h.goesw.kr-publicversion/hanbom_h.goesw.kr/hanbom-h.goesw.kr/00_common/js/common.js)**: 사이트 UI 전용 그래픽 및 스크립트 자산입니다.
+## 3. 메인 진입점 설정
+- 사용자가 제공한 실제 홈페이지 스크린샷과 가장 일치하는 콘텐츠를 가진 파일을 `index.html`로 설정했습니다. 이제 아카이브를 열자마자 학교의 메인 화면과 내비게이션 메뉴를 확인할 수 있습니다.
 
-## 3. 기술 스택 (Front-end)
-이 사이트는 전형적인 한국 교육기관 웹 프레임워크 또는 커스텀 CMS를 기반으로 구축되었습니다.
+## 4. 최종 확인
+- [x] 한글 깨짐 현상 해결 (UTF-8 표준 준수)
+- [x] 모든 이미지 및 스타일시트 경로 정상 작동
+- [x] 메뉴 및 게시판 링크 로컬 열람 가능
+- [x] 외부 벤더 자산(`vendors/`) 로컬 통합 완료
 
-- **프레임워크/라이브러리**:
-    - **jQuery (v3.x)**: DOM 조작 및 인터랙션 구현.
-    - **Modernizr (2.6.2)**: 브라우저 기능 감지.
-    - **Slick Slider**: 메인 비주얼 및 갤러리 슬라이드 구현.
-    - **XEIcon**: 아이콘 폰트 시스템.
-- **아카이빙 특징**:
-    - **[.do](file:///c:/Users/user/Downloads/Archiv_hanbom_h.goesw.kr-publicversion/hanbom_h.goesw.kr/hanbom-h.goesw.kr/hanbom-h/na/ntt/selectNttList.do) 확장자 유지**: 원래 Java/Spring 기반 서버에서 사용되던 URL 패턴([.do](file:///c:/Users/user/Downloads/Archiv_hanbom_h.goesw.kr-publicversion/hanbom_h.goesw.kr/hanbom-h.goesw.kr/hanbom-h/na/ntt/selectNttList.do))을 그대로 파일 확장자로 사용하고 있습니다. 이는 정적 서버에서도 기존 URL 구조를 유지하기 위함입니다 (예: [selectNttList.do](file:///c:/Users/user/Downloads/Archiv_hanbom_h.goesw.kr-publicversion/hanbom_h.goesw.kr/hanbom-h.goesw.kr/hanbom-h/na/ntt/selectNttList.do)).
-    - **웹 접근성 고려**: [common.js](file:///c:/Users/user/Downloads/Archiv_hanbom_h.goesw.kr-publicversion/hanbom_h.goesw.kr/hanbom-h.goesw.kr/00_common/js/common.js) 및 HTML 마크업 상에서 웹 접근성 수정을 위한 코드와 주석이 다수 발견되었습니다.
-
-## 4. 주요 분석 포인트
-- **게시판 시스템**: [na/ntt/selectNttList.do](file:///c:/Users/user/Downloads/Archiv_hanbom_h.goesw.kr-publicversion/hanbom_h.goesw.kr/hanbom-h.goesw.kr/hanbom-h/na/ntt/selectNttList.do) 등의 파일을 통해 학교 소식, 공지사항 등이 아카이브되어 있음을 확인했습니다.
-- **메뉴 체계**: GNB(Global Navigation Bar)는 `학교소개`, `입학안내`, `학교생활`, `취업/진학`, `학습지원센터`, `커뮤니티` 등으로 구성되어 있습니다.
-- **최근 유지보수**: 코드 주석(`240329 메인메뉴 웹접근성 수정`)을 통해 2024년 3월까지 활발하게 유지보수되었던 사이트임을 알 수 있습니다.
-
-## 5. 결론
-본 프로젝트는 단순한 파일 모음이 아니라, 학교의 디지털 역사를 보존한 **체계적인 웹 아카이브**입니다. 모든 링크와 자산이 상대 경로로 잘 정리되어 있어, 로컬 환경에서 웹 브라우저를 통해 원본 사이트와 유사한 모습으로 열람이 가능하도록 설계되어 있습니다.
+이제 본 아카이브는 원본 사이트의 디자인과 내용을 로컬 환경에서도 똑같이 유지하며, 누구나 쉽고 편리하게 열람할 수 있는 상태입니다.

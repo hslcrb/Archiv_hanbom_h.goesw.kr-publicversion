@@ -113,7 +113,7 @@ $(function() {
 
 // 배너 리스트 이벤트 (배너 리스트 페이지 이동)
 function bannerListAct(sysId) {
-    location.href = "/" + sysId + "/ba/banner/selectBannerColl.do";
+    location.href = "/" + sysId + "/ba/banner/selectBannerColl.html";
 }
 
 // 통합검색
